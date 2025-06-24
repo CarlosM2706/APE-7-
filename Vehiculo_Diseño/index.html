@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Gestor de Vehículos</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>Gestor de Vehículos</h1>
+
+  <table id="vehiculosTable">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Marca</th>
+        <th>Modelo</th>
+        <th>Año</th>
+        <th>Acciones</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- lista los vehículos -->
+    </tbody>
+  </table>
+
+  <form id="vehiculoForm" novalidate>
+  <input type="hidden" id="vehiculoId" />
+  
+  <div class="form-group">
+    <input type="text" id="marca" placeholder="Marca" required />
+    <span class="error-message" id="errorMarca"></span>
+  </div>
+  
+  <div class="form-group">
+    <input type="text" id="modelo" placeholder="Modelo" required />
+    <span class="error-message" id="errorModelo"></span>
+  </div>
+  
+  <div class="form-group">
+    <input type="number" id="anio" placeholder="Año" required min="1900" max="2100" />
+    <span class="error-message" id="errorAnio"></span>
+  </div>
+  
+  <button type="submit">Agregar Vehículo</button>
+  <button type="button" id="cancelEdit" style="display:none;">Cancelar</button>
+</form>
+
+
+  <div id="message" class="message"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

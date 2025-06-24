@@ -1,0 +1,260 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f1f4f9;
+  color: #333;
+  padding: 20px;
+}
+
+.container {
+  max-width: 960px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #1565c0;
+  font-size: 2.5rem;
+}
+
+/* Tabla */
+table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 4px;
+  background: transparent;
+  margin-bottom: 20px;
+}
+
+thead tr {
+  background: #1976d2;
+  color: white;
+}
+
+th, td {
+  padding: 8px 20px;
+  text-align: left;
+}
+
+tbody tr {
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s ease;
+}
+
+tbody tr:hover {
+  transform: scale(1.01);
+  background: #f0f8ff;
+}
+
+td:last-child {
+  text-align: center;
+}
+
+button {
+  cursor: pointer;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+button.edit {
+  background: #4caf50;
+  color: #fff;
+  margin-right: 5px;
+}
+
+button.edit:hover {
+  background: #388e3c;
+}
+
+button.delete {
+  background: #f44336;
+  color: #fff;
+}
+
+button.delete:hover {
+  background: #c62828;
+}
+
+/* Mensajes generales */
+.message {
+  margin-top: 8px;
+  padding: 16px 20px;
+  border-radius: 12px;
+  font-weight: 600;
+  text-align: center;
+  font-size: 1rem;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+  opacity: 0;
+  animation: fadeIn 0.4s forwards;
+  position: relative;
+  z-index: 10;
+  user-select: none;
+}
+
+.message.success {
+  background: #e6f4ea;
+  color: #2e7d32;
+  border: 2px solid #81c784;
+}
+
+.message.success::before {
+  content: "✅";
+  font-size: 1.4rem;
+}
+
+.message.error {
+  background: #fdecea;
+  color: #b00020;
+  border: 2px solid #ef5350;
+}
+
+.message.error::before {
+  content: "⚠️";
+  font-size: 1.4rem;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+/* Formulario */
+form {
+  background: #ffffff;
+  padding: 10px 10px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  margin-bottom: 30px;
+}
+
+form input {
+  width: 100%;
+  padding: 12px 14px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+form input:focus {
+  border-color: #1976d2;
+  outline: none;
+}
+
+form button[type="submit"] {
+  background: #1976d2;
+  color: white;
+  margin-right: 10px;
+}
+
+form button[type="submit"]:hover {
+  background: #1565c0;
+}
+
+#cancelEdit {
+  background: #9e9e9e;
+  color: white;
+}
+
+#cancelEdit:hover {
+  background: #616161;
+}
+
+/* Mensajes de error para inputs */
+.form-group {
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.error-message {
+  color: #d32f2f; 
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-top: 2px;
+  display: block;
+  background: #fdecea;
+  padding: 4px 8px;
+  border-radius: 6px;
+  box-shadow: 0 1px 6px rgba(211, 47, 47, 0.25);
+  border-left: 4px solid #d32f2f;
+  animation: slideIn 0.3s ease forwards;
+  max-width: 280px;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  form input {
+    width: 100%;
+  }
+
+  table, thead, tbody, th, td, tr {
+    display: block;
+  }
+
+  thead {
+    display: none;
+  }
+
+  tr {
+    margin-bottom: 10px;
+    background: white;
+    border-radius: 8px;
+    padding: 6px;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.1);
+  }
+
+  td {
+    position: relative;
+    padding-left: 50%;
+    text-align: right;
+  }
+
+  td::before {
+    content: attr(data-label);
+    position: absolute;
+    left: 8px;
+    top: 8px;
+    font-weight: bold;
+    color: #666;
+    text-align: left;
+  }
+
+  td:last-child {
+    text-align: right;
+    padding-top: 10px;
+  }
+}
+
