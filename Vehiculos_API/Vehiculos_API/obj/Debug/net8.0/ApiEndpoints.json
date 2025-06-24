@@ -1,0 +1,60 @@
+[
+  {
+    "ContainingType": "Vehiculos_API.Controllers.VehiculoController",
+    "Method": "Get",
+    "RelativePath": "api/Vehiculo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Vehiculos_API.Controllers.VehiculoController",
+    "Method": "Post",
+    "RelativePath": "api/Vehiculo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vehiculo",
+        "Type": "Vehiculos_API.Models.Vehiculo",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Vehiculos_API.Controllers.VehiculoController",
+    "Method": "Put",
+    "RelativePath": "api/Vehiculo",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vehiculo",
+        "Type": "Vehiculos_API.Models.Vehiculo",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Vehiculos_API.Controllers.VehiculoController",
+    "Method": "Delete",
+    "RelativePath": "api/Vehiculo/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

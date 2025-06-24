@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\PA\\Clases\\Vehiculos_API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7C7A989E-DB3B-45AE-BB26-0D779A65C45E}|Vehiculos_API\\Vehiculos_API.csproj|d:\\pa\\clases\\vehiculos_api\\vehiculos_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7C7A989E-DB3B-45AE-BB26-0D779A65C45E}|Vehiculos_API\\Vehiculos_API.csproj|solutionrelative:vehiculos_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C7A989E-DB3B-45AE-BB26-0D779A65C45E}|Vehiculos_API\\Vehiculos_API.csproj|d:\\pa\\clases\\vehiculos_api\\vehiculos_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C7A989E-DB3B-45AE-BB26-0D779A65C45E}|Vehiculos_API\\Vehiculos_API.csproj|solutionrelative:vehiculos_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C7A989E-DB3B-45AE-BB26-0D779A65C45E}|Vehiculos_API\\Vehiculos_API.csproj|d:\\pa\\clases\\vehiculos_api\\vehiculos_api\\controllers\\vehiculocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C7A989E-DB3B-45AE-BB26-0D779A65C45E}|Vehiculos_API\\Vehiculos_API.csproj|solutionrelative:vehiculos_api\\controllers\\vehiculocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C7A989E-DB3B-45AE-BB26-0D779A65C45E}|Vehiculos_API\\Vehiculos_API.csproj|d:\\pa\\clases\\vehiculos_api\\vehiculos_api\\services\\vehiculoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C7A989E-DB3B-45AE-BB26-0D779A65C45E}|Vehiculos_API\\Vehiculos_API.csproj|solutionrelative:vehiculos_api\\services\\vehiculoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C7A989E-DB3B-45AE-BB26-0D779A65C45E}|Vehiculos_API\\Vehiculos_API.csproj|d:\\pa\\clases\\vehiculos_api\\vehiculos_api\\excepciones\\sqlexceptionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C7A989E-DB3B-45AE-BB26-0D779A65C45E}|Vehiculos_API\\Vehiculos_API.csproj|solutionrelative:vehiculos_api\\excepciones\\sqlexceptionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C7A989E-DB3B-45AE-BB26-0D779A65C45E}|Vehiculos_API\\Vehiculos_API.csproj|d:\\pa\\clases\\vehiculos_api\\vehiculos_api\\models\\vehiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C7A989E-DB3B-45AE-BB26-0D779A65C45E}|Vehiculos_API\\Vehiculos_API.csproj|solutionrelative:vehiculos_api\\models\\vehiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VehiculoController.cs",
+              "DocumentMoniker": "D:\\PA\\Clases\\Vehiculos_API\\Vehiculos_API\\Controllers\\VehiculoController.cs",
+              "RelativeDocumentMoniker": "Vehiculos_API\\Controllers\\VehiculoController.cs",
+              "ToolTip": "D:\\PA\\Clases\\Vehiculos_API\\Vehiculos_API\\Controllers\\VehiculoController.cs",
+              "RelativeToolTip": "Vehiculos_API\\Controllers\\VehiculoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T01:30:57.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\PA\\Clases\\Vehiculos_API\\Vehiculos_API\\Program.cs",
+              "RelativeDocumentMoniker": "Vehiculos_API\\Program.cs",
+              "ToolTip": "D:\\PA\\Clases\\Vehiculos_API\\Vehiculos_API\\Program.cs",
+              "RelativeToolTip": "Vehiculos_API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T01:33:46.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VehiculoService.cs",
+              "DocumentMoniker": "D:\\PA\\Clases\\Vehiculos_API\\Vehiculos_API\\Services\\VehiculoService.cs",
+              "RelativeDocumentMoniker": "Vehiculos_API\\Services\\VehiculoService.cs",
+              "ToolTip": "D:\\PA\\Clases\\Vehiculos_API\\Vehiculos_API\\Services\\VehiculoService.cs",
+              "RelativeToolTip": "Vehiculos_API\\Services\\VehiculoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T01:29:36.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\PA\\Clases\\Vehiculos_API\\Vehiculos_API\\appsettings.json",
+              "RelativeDocumentMoniker": "Vehiculos_API\\appsettings.json",
+              "ToolTip": "D:\\PA\\Clases\\Vehiculos_API\\Vehiculos_API\\appsettings.json",
+              "RelativeToolTip": "Vehiculos_API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-24T01:31:37.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SqlExceptionManager.cs",
+              "DocumentMoniker": "D:\\PA\\Clases\\Vehiculos_API\\Vehiculos_API\\Excepciones\\SqlExceptionManager.cs",
+              "RelativeDocumentMoniker": "Vehiculos_API\\Excepciones\\SqlExceptionManager.cs",
+              "ToolTip": "D:\\PA\\Clases\\Vehiculos_API\\Vehiculos_API\\Excepciones\\SqlExceptionManager.cs",
+              "RelativeToolTip": "Vehiculos_API\\Excepciones\\SqlExceptionManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T01:27:38.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Vehiculo.cs",
+              "DocumentMoniker": "D:\\PA\\Clases\\Vehiculos_API\\Vehiculos_API\\Models\\Vehiculo.cs",
+              "RelativeDocumentMoniker": "Vehiculos_API\\Models\\Vehiculo.cs",
+              "ToolTip": "D:\\PA\\Clases\\Vehiculos_API\\Vehiculos_API\\Models\\Vehiculo.cs",
+              "RelativeToolTip": "Vehiculos_API\\Models\\Vehiculo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T01:26:13.527Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
